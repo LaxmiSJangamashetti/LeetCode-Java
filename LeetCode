@@ -255,6 +255,9 @@ Explanation: From left to right, it reads -121. From right to left, it becomes 1
 Example 3:
 Input: x = 10
 Output: false
+
+
+
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 
@@ -460,3 +463,29 @@ Example 2:
 Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
+
+
+import java.util.Scanner;
+class Solution {
+    public int strStr(String haystack, String needle) {
+        int n = haystack.length();
+        int m = needle.length();
+        for(int i=0;i<=n-m;i++){
+            int j=0;
+            while(j<m && haystack.charAt(i+j)==needle.charAt(j)){
+                j++;
+            }
+            if(j==m){
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        Solution s = new Solution();
+        String haystack = sc.nextLine();
+        String needle = sc.nextLine();
+        System.out.print(s.strStr(haystack,needle));
+    }
+}

@@ -464,7 +464,7 @@ Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
 
-15. Find the index of the first occurence of a string.
+15. LeetCode(String) Find the index of the first occurence of a string.
 Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 import java.util.Scanner;
 class Solution {

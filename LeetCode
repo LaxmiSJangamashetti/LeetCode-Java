@@ -368,7 +368,7 @@ Explanation:
 rotate 1 steps to the right: [99,-1,-100,3]
 rotate 2 steps to the right: [3,99,-1,-100]
 
-Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+12. Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
 import java.util.Scanner;
 class Solution {
     public int mySqrt(int x) {
@@ -392,7 +392,7 @@ Input: x = 8
 Output: 2
 Explanation: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
 
-Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
+13. Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
 Integers in each row are sorted in ascending from left to right.
 Integers in each column are sorted in ascending from top to bottom.
 class Solution {
@@ -427,7 +427,7 @@ Example 2:
 Input: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 20
 Output: false
 
-Write a function to find the longest common prefix string amongst an array of strings.
+14. Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".
 
 class Solution {
@@ -464,7 +464,7 @@ Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
 
-Find the index of the first occurence of a string.
+15. Find the index of the first occurence of a string.
 Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 import java.util.Scanner;
 class Solution {
